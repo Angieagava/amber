@@ -1,0 +1,186 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+/*navigation*/
+.navbar {
+	border-bottom: 5px solid #0088cb;
+	position:relative;
+}
+.navbar-brand {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 25%;
+}
+
+a.nav-link {
+	color: #DBD8D8;
+	padding: 0 20px;
+	font-size: .9rem;
+}
+a.nav-link:hover {
+	color: #01b8e3;
+}
+.contact_p {
+	position: absolute;
+	display: block;
+	top: 2vh;
+	left: 45vw;
+	color: #01b8e3;
+	font-size: 1rem;
+}
+.navbar-nav { 
+	padding-top: 3%; 
+	margin-left: 35%;
+}
+.navbar-expand .navbar-nav .nav-link {
+	padding-right: 1.7rem;
+    padding-left: 1.7rem;
+}
+.space { margin: 7% 0; } 
+
+/*city_1*/
+
+
+/*bg-photo*/
+.city_photo_1 {
+	background-image: url('images/city_1.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: 2px solid #000;
+	border-radius: 50%;
+	display: block;
+	width: 450px;
+	height: 450px;
+	float: right;
+	position: relative;
+	padding-top: 10%;
+}
+.city_photo_1:hover {
+	opacity: .7;
+	transition: .5s;
+}
+.city_photo_1 a {
+	display: block;
+    width: 100%;
+    height: 100%;
+}
+/*bg-sign*/
+.city_photo_1:before {
+	content:'SZCZECIN';
+	position: absolute;
+	width: 250px;
+	height: 65px;
+	border: 2px solid #272e38;
+	display: block;
+	background: #fff;
+	color: #000;
+	text-align: center;
+	padding: 15px 30px;
+	top: 8%;
+	right: -30%;
+	letter-spacing: .3rem;
+	line-height: 2rem;
+	font-size: 1.2rem;
+}
+/*description*/
+.city_descript_1 p {
+	color: #272e38;
+	font-size: .9rem;
+	line-height: 1.4rem;
+	margin-top: 15%;
+	padding-top: 10%;
+	padding-right: 10%;
+	text-align: left;
+}
+
+/*city_2*/
+
+.city_photo_2 {
+	background-image: url('images/city_2.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid #272e38;
+	border-radius: 50%;
+	display: block;
+	width: 450px;
+	height: 450px;
+	float: left;
+	position: relative;
+	padding-top: 10%;
+}
+
+}
+.city_photo_2 a {
+	display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.city_photo_2:hover {
+	opacity: .7;
+	transition: .5s;
+}
+
+.city_photo_2:before {
+	content:'MIĘDZYWODZIE';
+	position: absolute;
+	width: 250px;
+	height: 65px;
+	border: 2px solid #000;
+	display: block;
+	background: #fff;
+	color: #000;
+	text-align: center;
+	padding: 15px 30px;
+	top: 8%;
+	left: -30%;
+	letter-spacing: .3rem;
+	line-height: 2rem;
+	font-size: 1.2rem;
+}
+
+.city_descript_2 p {
+	color: #272e38;
+	font-size: .9rem;
+	line-height: 1.4rem;
+	margin-top: 15%;
+	padding-top: 10%;
+	padding-left: 10%;
+	text-align: right;
+}
+footer {
+	padding: 3%;
+	color: #fff;
+	text-align: center;
+}
+footer img {
+	margin: 0 auto;
+	display: block;
+	padding: 2% 0;
+}
+footer .social_m {
+	margin: 0 auto;
+	width: 100%;
+}
+
+footer .social_m img {
+	display: inline-block;
+	margin: 0 1%;
+	height: 30px;
+	width: auto;
+}
+footer .social_m img:hover {
+	opacity:.5;
+	transition: .5s;
+}
+footer img:hover {
+	opacity: .5;
+}
+footer p, footer a { 
+	font-size: .9rem; 
+	margin: 0 auto;
+	color: #fff;
+}
