@@ -1,152 +1,186 @@
-<!DOCTYPE html>
-<html lang="pl">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Shopest">
-    <title>AMBER</title>
-    <link rel="icon" type="image/x-icon" href="images/logo.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/87c6a30ce1.js"></script>
-    <script src="script.js"></script>
-  </head>
-  <body>
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+/*navigation*/
+.navbar {
+	border-bottom: 5px solid #0088cb;
+	position:relative;
+}
+.navbar-brand {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 25%;
+}
 
-    <header>
-            <nav class="navbar navbar-expand bg-dark">
-              <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <span class="contact_p">TEL: 730 16 16 16</span>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">intro</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">MIĘDZYWODZIE</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">SZCZECIN</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">o Amber Suite</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">PAKIETY</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">KONTAKT</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-    </header>
-    
-    <div class="container">
-        <div class="space">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <div class="city_photo_1">
-                        <a href="http://www.ambersuite.pl/" title="Ambersuite Szczecin" target ="_blank"></a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="city_descript_1">
-                        <p>
-                            Szczecin - Odkryj miasto z niezwykłą historią. 
-                            Średniowieczny Szczecin uznawany był za twierdzę nie do zdobycia. W Danii istniało podobno (a kto wie może i nadal istnieje...) powiedzenie: „Nie jesteś bezpieczny, jeśli nie chronią Cię mury Szczecina”. Co było atutem w średniowieczu przeszkadzało potem w rozwoju miasta. Punktem zwrotnym była decyzja o rozebraniu fortyfikacji. Burzenie fortów i murów miejskich rozpoczęto w czerwcu 1873 roku i od tego okresu datuje się bardzo dynamiczna rozbudowa miasta, którego XIX-wieczny układ osi urbanistycznej wzorowany był na układzie paryskim, często dlatego Szczecin nazywany jest „Paryżem północy”. Interesujący jest fakt, iż układ trzech centralnych placów (Grunwaldzkiego, Odrodzenia i Sprzymierzonych) względem Odry, odzwierciedla położenie piramid w Gizie względem Nilu oraz układ pasa konstelacji oriona względem Drogi Mlecznej.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="space">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <div class="city_descript_2">
-                        <p>
-                            Spędź wyjątkowe chwile w Enklawie Spokoju dla Dorosłych - odkryj nasz hotel w Międzywodziu, wymarzony na wakacje nad morzem, wypad sama na sam lub na romantyczny weekend.
-                            Wspaniały hotel wysokiej klasy, gdzie spokój i odpoczynek są tutaj na pierwszym miejscu.    
-                            Hotel bez dzieci nad morzem pozwala na chwile wytchnienia. Dzięki temu, że nasz hotel jest hotelem dla dorosłych, tworzymy intymną przestrzeń odprężenia. Łączymy najnowsze trendy pojawiające się w branży hotelarskiej. Amber Suite to kameralny hotel butikowy, hotel proekologiczny i hotel dla dorosłych, stanowiący odskocznię od codzienności i zmartwień. 
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="city_photo_2">
-                        <a href="http://www.ambersuite.pl/" title="Ambersuite Międzywodzie" target ="_blank"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer class="bg-dark">
-                <div class="row">
-                    <div class="col text-center border-right">
-                         <a href="tel:+48730161616" title="phone" target="_blank" data-toggle="tooltip" data-placement="top">
-                         <div class="row">
-                            <img src="images/phone.png" alt="phone" title="phone">
-                        </div>
-                         <div class="phone">
-                            <p> +48 730 16 16 16 </p>
-                        </div>
-                    </a>
-                    </div>
-                    <div class="col text-center border-right">
-                        <a href="mailto:rezerwacja@ambersuite.pl" title="e-mail" target="_blank" data-toggle="tooltip" data-placement="top">
-                             <div class="row">
-                                <img src="images/mail.png" alt="mail" title="mail">
-                            </div>
-                             <div class="row">
-                                <p>rezerwacja@ambersuite.pl</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col text-center border-right">
-                        <a href="https://goo.gl/maps/dsDqPGEasg72" title="google maps" target="_blank" data-toggle="tooltip" data-placement="top">
-                             <div class="row">
-                                <img src="images/maps.png" alt="map" title="map">
-                            </div>
-                             <div class="row">
-                               <p>ul. Puławska 3</p>
-                                <p>72-415 Międzywodzie</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col text-center" data-toggle="tooltip" data-placement="top" title="social media">
-                        <div class="row" >
-                            <img src="images/heart.png" alt="heart" title="like">
-                        </div>
-                        <div class="row">
-                            <span class="social_m">
-                                <a href="http://pl.tripadvisor.com/Hotel_Review-g1188018-d4567091-Reviews-Hotel_Amber_Suite-Miedzywodzie_Western_Pomerania_Province_Western_Poland.html" title="trip advisor"  target="_blank" data-toggle="tooltip" data-placement="top">
-                                    <img src="images/tripadvisor.png" alt="tripadvisor" title="tripadvisor">
-                                </a>
-                                <a href="http://www.facebook.com/ambersuite" title="facebook"  target="_blank" data-toggle="tooltip" data-placement="top">
-                                    <img src="images/facebook.png" alt="fb" title="facebook">
-                                </a>
-                                <a href="https://instagram.com" title="instagram"  target="_blank" data-toggle="tooltip" data-placement="top">
-                                    <img src="images/instagram.png" alt="instagram" title="instagram">
-                                </a>
-                                <a href="http://ambersuite.blogspot.com" title="blogger"  target="_blank" data-toggle="tooltip" data-placement="top">
-                                    <img src="images/blogger-logotype.png" alt="blogger" title="blogger">
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-        </footer>
-    </div>
-<script>
-    $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-</script>
-  </body>
-  </html>
+a.nav-link {
+	color: #DBD8D8;
+	padding: 0 20px;
+	font-size: .9rem;
+}
+a.nav-link:hover {
+	color: #01b8e3;
+}
+.contact_p {
+	position: absolute;
+	display: block;
+	top: 2vh;
+	left: 45vw;
+	color: #01b8e3;
+	font-size: 1rem;
+}
+.navbar-nav { 
+	padding-top: 3%; 
+	margin-left: 35%;
+}
+.navbar-expand .navbar-nav .nav-link {
+	padding-right: 1.7rem;
+    padding-left: 1.7rem;
+}
+.space { margin: 7% 0; } 
+
+/*city_1*/
+
+
+/*bg-photo*/
+.city_photo_1 {
+	background-image: url('images/city_1.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: 2px solid #000;
+	border-radius: 50%;
+	display: block;
+	width: 45vh;
+	height: 45vh;
+	float: right;
+	position: relative;
+	padding-top: 10%;
+}
+.city_photo_1:hover {
+	opacity: .7;
+	transition: .5s;
+}
+.city_photo_1 a {
+	display: block;
+    width: 100%;
+    height: 100%;
+}
+/*bg-sign*/
+.city_photo_1:before {
+	content:'SZCZECIN';
+	position: absolute;
+	width: 250px;
+	height: 65px;
+	border: 2px solid #272e38;
+	display: block;
+	background: #fff;
+	color: #000;
+	text-align: center;
+	padding: 15px 30px;
+	top: 8%;
+	right: 0;
+	letter-spacing: .3rem;
+	line-height: 2rem;
+	font-size: 1.2rem;
+}
+/*description*/
+.city_descript_1 p {
+	color: #272e38;
+	font-size: .9rem;
+	line-height: 1.4rem;
+	margin-top: 15%;
+	padding-top: 10%;
+	padding-right: 10%;
+	text-align: left;
+}
+
+/*city_2*/
+
+.city_photo_2 {
+	background-image: url('images/city_2.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid #272e38;
+	border-radius: 50%;
+	display: block;
+	width: 45vh;
+	height: 45vh;
+	float: left;
+	position: relative;
+	padding-top: 10%;
+}
+
+}
+.city_photo_2 a {
+	display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.city_photo_2:hover {
+	opacity: .7;
+	transition: .5s;
+}
+
+.city_photo_2:before {
+	content:'MIĘDZYWODZIE';
+	position: absolute;
+	width: 250px;
+	height: 65px;
+	border: 2px solid #000;
+	display: block;
+	background: #fff;
+	color: #000;
+	text-align: center;
+	padding: 15px 30px;
+	top: 8%;
+	left: 0;
+	letter-spacing: .3rem;
+	line-height: 2rem;
+	font-size: 1.2rem;
+}
+
+.city_descript_2 p {
+	color: #272e38;
+	font-size: .9rem;
+	line-height: 1.4rem;
+	margin-top: 15%;
+	padding-top: 10%;
+	padding-left: 10%;
+	text-align: right;
+}
+footer {
+	padding: 3%;
+	color: #fff;
+	text-align: center;
+}
+footer img {
+	margin: 0 auto;
+	display: block;
+	padding: 2% 0;
+}
+footer .social_m {
+	margin: 0 auto;
+	width: 100%;
+}
+
+footer .social_m img {
+	display: inline-block;
+	margin: 0 1%;
+	height: 30px;
+	width: auto;
+}
+footer .social_m img:hover {
+	opacity:.5;
+	transition: .5s;
+}
+footer img:hover {
+	opacity: .5;
+}
+footer p, footer a { 
+	font-size: .9rem; 
+	margin: 0 auto;
+	color: #fff;
+}
